@@ -77,6 +77,12 @@ footer{
     display: flex;
 }
 
+.quest {
+    display: flex;
+    flex-direction: row-reverse;
+    font-size: 35px;
+}
+
 @media (max-width: 700px) {
     img {
         display: none;
