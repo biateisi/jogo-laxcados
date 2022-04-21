@@ -2,7 +2,7 @@ function startQuest() {
     var escolhaUm=prompt ("Adalberto estava a caminho do trabalho, e a sua esposa entrou em trabalho de parto. Agora ele precisa decidir se leva a esposa para o hospital ou se corre para o trabalho, para não chegar atrasado, já que ele não pode correr o risco de ser demitido.\nO que ele faz?\n1- Leva a esposa para o hospital\n2- Chama ambulância e vai para o trabalho");
 
     if (escolhaUm==1) {
-        alert ("Adalberto levou a mulher para o hospital, passou o dia inteiro lá e perdeu a reunião. No dia seguinte, quando Adalberto chegou ao trabalho, chamou o chefe para conversar e soube que não havia mais chances de ser promovido, pois a vaga foi preenchida na reunião de ontem. Adalberto se Laxcou!");
+        alert ("Adalberto levou a mulher para o hospital, passou o dia inteiro lá e perdeu a reunião. No dia seguinte, quando Adalberto chegou ao trabalho, chamou o chefe para conversar e soube que não havia mais chances de ser promovido, pois a vaga foi preenchida na reunião de ontem.\n\n\n ADALBERTO SE LAXCOU!");
 
         var deNovo;
         while (deNovo != 1 && deNovo != 2) {
@@ -16,7 +16,7 @@ function startQuest() {
             }
         }
     } else if (escolhaUm == 2) {
-        window.location.href="./questAdalbertoTrabalhoFeliz.html";
+        window.location.href="./questAdalbertoFeliz.html";
     } else {
         alert ("Essa opção não é válida, tente novamente.");
     }
