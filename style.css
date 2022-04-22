@@ -135,4 +135,8 @@ p {
     #personagens img {
         width: 50vw;
     }
+
+    #container-info {
+        display: block;
+    }
 }
