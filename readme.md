@@ -43,7 +43,9 @@ Antes de começar, você vai precisar ter instalado em sua máquina o GiT. Além
 
 ## Acessando o jogo
 
-- Clone o repositório: git clone <https://github.com/beatrizteisi/jogo-laxcados>
+- Acesse o link: <https://biateisi.github.io/jogo-laxcados/>
+ou
+- Clone o repositório: git clone <https://github.com/biateisi/jogo-laxcados> --> Fork
 - Acesse a pasta do projeto no terminal/cmd: $ cd jogo-laxcados
 - Abra o arquivo index.html
 
