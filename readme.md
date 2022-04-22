@@ -41,14 +41,11 @@ O jogo foi desenvolvido para HTML, utilizando o programa VSCode na linguagem Jav
 
 Antes de começar, você vai precisar ter instalado em sua máquina o GiT. Além disto é bom ter um editor para trabalhar com o código, aqui foi utilizado o VSCode
 
-## Acessando o código
+## Acessando o jogo
 
 - Clone o repositório: git clone <https://github.com/beatrizteisi/jogo-laxcados>
 - Acesse a pasta do projeto no terminal/cmd: $ cd jogo-laxcados
-- Vá para a pasta server: $ cd server
-- Instale as dependências: $ npm install
-- Execute a aplicação em modo de desenvolvimento: $ npm run dev:server
-- O servidor inciará na porta:3333 - acesse <http://localhost:3333>
+- Abra o arquivo index.html
 
 ## Autor
 
