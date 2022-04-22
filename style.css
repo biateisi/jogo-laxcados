@@ -1,9 +1,9 @@
 body {
-    background-image: url(Imagens/fundo.jpg);
-    font-family:'Fredericka the Great', cursive;
+    background-image: url("Imagens/fundo.jpg");
+    font-family: "Fredericka the Great", cursive;
     text-align: center;
-    margin: 30px
-
+    margin: 30px;
+    font-size: 14px;
 }
 
 h1 {
@@ -16,29 +16,38 @@ h1 {
     background-color: rgba(255,255,255,0.8);
     text-align: center;
     font-family: 'Palette Mosaic', cursive;
-    font-size: 65px;
+    font-size: 4vw;
     height: fit-content;
     padding: 15px;
 }
 
 #container-info {
     background-color: rgba(255,255,255,0.8);
+    justify-content: center;
     display:flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding:0;
+    padding: 28px;
+}
+
+#container-info img {
+    width: 50%;
+}
+
+.quest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#explicando{
+    display: flex;
+    flex-direction: column;
 }
 
 .jogo {
     font-size:35px;
     text-align: left;
-    height: fit-content;
     padding: 15px;
-    margin-top: 75px;
-}
-
-img {
-    align-items: center;
+    align-self: center;
 }
 
 .instrucoes {
@@ -50,9 +59,21 @@ img {
 }
 
 button {
-    color: rgb(117, 70, 194);
-    padding: 10px;
+    color: rgb(255, 255, 255);
+    padding: 25px;
     font-family:'Fredericka the Great', cursive;
+    font-size: 25px;
+    background-color: rgb(255, 111, 0);
+    border-radius: 25px;
+}
+
+button:hover {
+    color: rgb(240, 133, 50);
+    background-color: rgb(250, 208, 176)
+}
+
+img {
+    object-fit: contain;
 }
 
 footer{
@@ -73,23 +94,39 @@ footer{
 }
 
 #personagens {
-    background-color: rgba(255,255,255,0.8);
+    background-color: rgba(255,255,255,0.9);
     display: flex;
+    justify-content: space-between;
+    padding: 60px;
 }
 
-.quest {
-    display: flex;
-    flex-direction: row-reverse;
-    font-size: 35px;
+#personagens h1 {
+    margin: 20px 0;
 }
 
-@media (max-width: 700px) {
-    img {
-        display: none;
+#personagens div {
+    flex: 1;
+}
+
+#personagens p {
+    margin: 20px;
+}
+
+#personagens img {
+    max-width: 100%;
+    object-fit: contain;
+}
+
+p {
+    font-size: 25px;
+}
+
+@media screen and (max-width: 700px) {
+    #personagens {
+        flex-direction: column;
     }
 
-    #container-info {
-        flex-direction: column;
-        width:100%;
+    #personagens img {
+        width: 50vw;
     }
 }
