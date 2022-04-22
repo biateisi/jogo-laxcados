@@ -51,7 +51,9 @@ ou
 
 ## Autor
 
-Ana Beatriz Teixeira
+Ana Beatriz Teixeira, estudande na instituição Resília no curso de desenvolvimento Web fullstack. 
+Início do curso - 03/2022
+Previsão de término - 09/2022
 
 ## Linceça
 Este projeto pode ser utilizado livremente. MIT License.
