@@ -1,3 +1,5 @@
+/*para todas as telas*/
+
 body {
     background-image: url("Imagens/fundo.jpg");
     font-family: "Fredericka the Great", cursive;
@@ -6,6 +8,7 @@ body {
     font-size: 14px;
 }
 
+/*relacionado ao título do jogo que se repete em todas as telas*/
 h1 {
     padding: 0;
     border: 0;
@@ -21,15 +24,12 @@ h1 {
     padding: 15px;
 }
 
+
 #container-info {
     background-color: rgba(255,255,255,0.8);
     justify-content: center;
     display:flex;
     padding: 28px;
-}
-
-#container-info img {
-    width: 50%;
 }
 
 .quest {
@@ -74,6 +74,12 @@ button:hover {
 
 img {
     object-fit: contain;
+    max-width: 50%;
+    max-height: 50%;
+}
+
+img.destaque {
+    max-width: 60%;
 }
 
 footer{
