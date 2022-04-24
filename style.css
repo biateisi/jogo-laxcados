@@ -8,6 +8,22 @@ body {
     font-size: 14px;
 }
 
+/*relacionado ao start*/
+.jogo {
+    font-size:35px;
+    text-align: left;
+    padding: 15px;
+    align-self: center;
+}
+
+.instrucoes {
+    background-color: rgba(255,255,255,0.8);
+    text-align: center;
+    font-size: 25px;
+    height: fit-content;
+    padding: 15px;
+}
+
 /*relacionado ao título do jogo que se repete em todas as telas*/
 h1 {
     padding: 0;
@@ -24,7 +40,7 @@ h1 {
     padding: 15px;
 }
 
-
+/*relacionado aos personagens*/
 #container-info {
     background-color: rgba(255,255,255,0.8);
     justify-content: center;
@@ -32,65 +48,11 @@ h1 {
     padding: 28px;
 }
 
-.quest {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-#explicando{
-    display: flex;
-    flex-direction: column;
-}
-
-.jogo {
-    font-size:35px;
-    text-align: left;
-    padding: 15px;
-    align-self: center;
-}
-
-.instrucoes {
-    background-color: rgba(255,255,255,0.8);
-    text-align: center;
+p {
     font-size: 25px;
-    height: fit-content;
-    padding: 15px;
 }
 
-button {
-    color: rgb(255, 255, 255);
-    padding: 25px;
-    font-family:'Fredericka the Great', cursive;
-    font-size: 25px;
-    background-color: rgb(255, 111, 0);
-    border-radius: 25px;
-}
-
-button:hover {
-    color: rgb(240, 133, 50);
-    background-color: rgb(250, 208, 176)
-}
-
-img {
-    object-fit: contain;
-    max-width: 50%;
-    max-height: 50%;
-}
-
-img.destaque {
-    max-width: 60%;
-}
-
-footer{
-    background-color: rgb(214, 157, 64);
-    color: black;
-    direction: rtl;
-    padding: 1px;
-    font-size: 17px;
-    text-align: right;
-}
-
+/*relacionado aos personagens*/
 #escolha{
     background-color: rgb(214, 157, 64);
     color: black;
@@ -123,21 +85,62 @@ footer{
     object-fit: contain;
 }
 
-p {
-    font-size: 25px;
+.quest {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
+#explicando{
+    display: flex;
+    flex-direction: column;
+}
+
+/*para os botões*/
+button {
+    color: rgb(255, 255, 255);
+    padding: 25px;
+    font-family:'Fredericka the Great', cursive;
+    font-size: 25px;
+    background-color: rgb(255, 111, 0);
+    border-radius: 25px;
+}
+
+button:hover {
+    color: rgb(240, 133, 50);
+    background-color: rgb(250, 208, 176)
+}
+
+/*para as imagens*/
+img {
+    object-fit: contain;
+    max-width: 50%;
+    max-height: 50%;
+}
+
+img.destaque {
+    max-width: 60%;
+}
+
+/*para o rodapé*/
+footer{
+    background-color: rgb(214, 157, 64);
+    color: black;
+    direction: rtl;
+    padding: 1px;
+    font-size: 17px;
+    text-align: right;
+}
+
+
+/*responsividade*/
 @media screen and (max-width: 700px) {
     p, h3, footer, button {
-        font-size: 10px ;
+        font-size: 5vw;
     }
 
     #personagens {
         flex-direction: column;
-    }
-
-    #personagens img {
-        width: 50vw;
     }
 
     #container-info {
