@@ -9,9 +9,9 @@ function startQuestDoisNat() {
         while (deNovoNat != 1 && deNovoNat != 2) {
             deNovoNat = prompt ("Tentar novamente? Digite:\n1-sim\n2-não");
             if(deNovoNat==1){
-                window.location.href="./indexPersonagens.html";
+                window.location.href="../indexPersonagens.html";
             }else if(deNovoNat ==2){
-                window.location.href="./index.html";
+                window.location.href="../../index.html";
             } else {
                 alert ("Essa opção não é válida, tente novamente.");
             }

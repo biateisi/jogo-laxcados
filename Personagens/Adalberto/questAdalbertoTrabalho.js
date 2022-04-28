@@ -23,7 +23,7 @@ function end() {
         if(deNovoJob==1){
             window.location.href="./indexPersonagens.html";
         }else if(deNovoJob==2){
-            window.location.href="./index.html";
+            window.location.href="../../index.html";
         } else {
             alert ("Essa opção não é válida, tente novamente.");
         }

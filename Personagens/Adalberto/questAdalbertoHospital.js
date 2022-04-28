@@ -8,9 +8,9 @@ function startQuest() {
         while (deNovo != 1 && deNovo != 2) {
             deNovo = prompt ("Tentar novamente? Digite:\n1-sim\n2-não");
             if(deNovo==1){
-                window.location.href="./indexPersonagens.html";
+                window.location.href="../indexPersonagens.html";
             }else if(deNovo ==2){
-                window.location.href="./index.html";
+                window.location.href="../../index.html";
             } else {
                 alert ("Essa opção não é válida, tente novamente.");
             }

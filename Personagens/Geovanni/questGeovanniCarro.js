@@ -9,9 +9,9 @@ function startQuestDoisGe() {
         while (deNovoGe != 1 && deNovoGe != 2) {
             deNovoGe = prompt ("Tentar novamente? Digite:\n1-sim\n2-não");
             if(deNovoGe==1){
-                window.location.href="./indexPersonagens.html";
+                window.location.href="../indexPersonagens.html";
             }else if(deNovoGe ==2){
-                window.location.href="./index.html";
+                window.location.href="../../index.html";
             } else {
                 alert ("Essa opção não é válida, tente novamente.");
             }

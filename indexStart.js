@@ -2,7 +2,7 @@ function start() {
     var comecar=prompt ("Você quer jogar?\n1-sim\n2-não");
 
     if (comecar==1){
-        window.location.href="./indexPersonagens.html";
+        window.location.href="./Personagens/indexPersonagens.html";
     } else if
         (comecar == 2){
         alert("Parabéns você perdeu a oportunidade de salvar um laxcado!");

@@ -1,7 +1,7 @@
 /*para todas as telas*/
 
 body {
-    background-image: url("Imagens/fundo.jpg");
+    background-image: url("fundo.jpg");
     font-family: "Fredericka the Great", cursive;
     text-align: center;
     margin: 30px;
