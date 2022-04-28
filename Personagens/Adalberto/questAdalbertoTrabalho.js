@@ -21,7 +21,7 @@ function end() {
     while (deNovoJob != 1 && deNovoJob != 2) {
         deNovoJob = prompt ("Tentar novamente? Digite:\n1-sim\n2-não");
         if(deNovoJob==1){
-            window.location.href="./indexPersonagens.html";
+            window.location.href="../indexPersonagens.html";
         }else if(deNovoJob==2){
             window.location.href="../../index.html";
         } else {
